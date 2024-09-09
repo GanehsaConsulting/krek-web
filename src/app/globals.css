@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.marquee {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.marquee-content {
+  display: flex;
+  animation: marquee 60s linear infinite;
+}
+
+/* .marquee:hover .marquee-content {
+  animation-play-state: paused;
+} */
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  to {
+    transform: translateX(-50%);
   }
 }
