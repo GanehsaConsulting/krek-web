@@ -1,4 +1,5 @@
 import { AboutUs } from "@/components/AboutUs";
+import { AnimateOnce } from "@/components/AnimateOnce";
 import { Banner } from "@/components/Banner";
 import { Contact } from "@/components/Contac";
 import { Faqs } from "@/components/Faq";
@@ -10,14 +11,37 @@ import { WhyUs } from "@/components/WhyUs";
 export default function Home() {
   return (
     <>
-      <Banner />
-      <AboutUs id={'tentang-kami'} />
-      <VisionMision id={'visi-&-misi'} />
-      <WhyUs />
-      <Products id={'produk'} />
-      <Services id={'layanan'} />
-      <Faqs id={'faq'} />
-      <Contact id={'kontak'} />
+      <AnimateOnce animation={'animate__fadeInDownBig'}>
+        <Banner />
+      </AnimateOnce>
+      <AnimateOnce animation={'animate__fadeInUpBig'}>
+        <AboutUs id={'tentang-kami'} />
+      </AnimateOnce>
+
+      <AnimateOnce animation={'animate__fadeInUpBig'}>
+        <VisionMision id={'visi-&-misi'} />
+      </AnimateOnce>
+
+      <AnimateOnce animation={'animate__fadeInUpBig'}>
+        <Products id={'produk'} />
+      </AnimateOnce>
+
+      <AnimateOnce animation={'animate__fadeInUpBig'}>
+        <WhyUs />
+      </AnimateOnce>
+
+      <AnimateOnce animation={'animate__fadeInUpBig'}>
+        <Services id={'layanan'} />
+      </AnimateOnce>
+
+      <AnimateOnce animation={'animate__fadeInUpBig'}>
+        <Faqs id={'faq'} />
+      </AnimateOnce>
+
+      <AnimateOnce animation={'animate__fadeInUpBig'}>
+        <Contact id={'kontak'} />
+      </AnimateOnce>
+
     </>
   );
 }
