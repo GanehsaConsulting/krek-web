@@ -34,7 +34,7 @@ export const Banner = ({ id }) => {
                             {products.concat(products).map((el, idx) => (
                                 <div key={idx} className="marquee-items md:min-w-[30vw] min-w-[80lvw] h-[50lvh] md:h-[45vh] relative group duration-300 ease-in-out hover:drop-shadow-md">
                                     <img
-                                        className="rounded-[30px] h-full w-full object-cover"
+                                        className="rounded-[30px] h-full w-full object-cover bg-sky-100"
                                         src={el.img}
                                         alt={el.name} />
                                 </div>
