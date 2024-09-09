@@ -48,7 +48,7 @@ export const Products = ({id}) => {
                                     <form method="dialog" className="sticky top-0 right-0">
                                         <button className="z-[!100] btn btn-circle btn-sm border-none bg-gray-200 focus:ring-0 hover:bg-gray-400 absolute right-0 top-0 rotate-45"><FaPlus className="text-lg text-gray-800 " /></button>
                                     </form>
-                                    <div className="text-white">
+                                    <div className="text-white mt-10">
                                         <h3 className="font-bold text-3xl">Koleksi <span className="text-sky-200"> {el.name} </span> Kami</h3>
                                         <p className="py-2">{el.desc}</p>
                                     </div>

@@ -14,7 +14,7 @@ export const Faqs = ({ id }) => {
                         {faq.map((el, idx) => (
                             <div key={idx} className="collapse collapse-arrow bg-base-200 !rounded-[30px]">
                                 <input type="radio" name="my-accordion-2" className="w-full" />
-                                <div className="collapse-title text-xl font-medium ">{el.question}</div>
+                                <div className="collapse-title md:text-xl font-medium ">{el.question}</div>
                                 <div className="collapse-content">
                                     <p>{el.answer}</p>
                                 </div>

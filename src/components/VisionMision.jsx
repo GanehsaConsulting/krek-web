@@ -26,7 +26,7 @@ export const VisionMision = ({ id }) => {
                             <h2 className="px-4 py-2 rounded-full border border-gray-200 mb-5 w-fit text-sm uppercase">
                                 Mission
                             </h2>
-                            <div className="text-lg md:text-xl ml-5">
+                            <div className="text-lg md:text-xl">
                                 {VisionMission.mission}
                             </div>
                         </div>

@@ -5,6 +5,7 @@ import { IoMailOutline, IoSparklesSharp } from "react-icons/io5";
 import { FaHandHoldingHand } from "react-icons/fa6";
 import { GrDeliver } from "react-icons/gr";
 import { MdPriceCheck } from "react-icons/md";
+import { LuDot } from "react-icons/lu"
 
 export function urlFriendly(text) {
     return `${text.toLowerCase().replace(/\s+/g, '-')}`;
@@ -43,17 +44,38 @@ export const VisionMission = {
     vision: 'Menjadi platform ecommerce terdepan dalam menyediakan pakaian wanita yang stylish dan berkualitas, menjangkau pelanggan di seluruh Indonesia.',
     mission: (
         <>
-            <p className="list-item">
-                Menyediakan produk fashion terkini yang dapat diakses dengan mudah oleh semua kalangan.
+
+            <p className="flex items-start gap-2">
+                <span>
+                    <LuDot className="text-2xl" />
+                </span>
+                <span>
+                    Menyediakan produk fashion terkini yang dapat diakses dengan mudah oleh semua kalangan.
+                </span>
             </p>
-            <p className="list-item">
-                Memberikan layanan pelanggan yang responsif dan berkualitas tinggi.
+            <p className="flex items-start gap-2">
+                <span>
+                    <LuDot className="text-2xl" />
+                </span>
+                <span>
+                    Memberikan layanan pelanggan yang responsif dan berkualitas tinggi.
+                </span>
             </p>
-            <p className="list-item">
-                Membangun kepercayaan pelanggan dengan menawarkan pakaian berkualitas terbaik dengan harga kompetitif.
+            <p className="flex items-start gap-2">
+                <span>
+                    <LuDot className="text-2xl" />
+                </span>
+                <span>
+                    Membangun kepercayaan pelanggan dengan menawarkan pakaian berkualitas terbaik dengan harga kompetitif.
+                </span>
             </p>
-            <p className="list-item">
-                Mengutamakan kemudahan dan kenyamanan berbelanja online.
+            <p className="flex items-start gap-2">
+                <span>
+                    <LuDot className="text-2xl" />
+                </span>
+                <span>
+                    Mengutamakan kemudahan dan kenyamanan berbelanja online.
+                </span>
             </p>
         </>
     )
@@ -62,12 +84,12 @@ export const VisionMission = {
 export const whyUs = [
     {
         title: "Kualitas Terjamin",
-        icon: <FaHandHoldingHand/>,
+        icon: <FaHandHoldingHand />,
         description: "Setiap produk kami dipilih dengan teliti untuk memastikan kualitas terbaik bagi pelanggan."
     },
     {
         title: "Desain Terkini",
-        icon: <IoSparklesSharp/>,
+        icon: <IoSparklesSharp />,
         description: "Kami selalu mengikuti tren fashion terbaru, menawarkan koleksi pakaian yang modern dan stylish."
     },
     {
