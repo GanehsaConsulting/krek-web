@@ -5,7 +5,7 @@ import { FaCirclePlus, FaPlus } from "react-icons/fa6";
 export const Products = ({id}) => {
     return (
         <>
-            <section id={id} className="bg-gradient-to-b from-sky-100 to-transparent rounded-t-[30px] md:py-24 md:px-24 py-10">
+            <section id={id} className="bg-gradient-to-b from-sky-100 to-transparent rounded-t-[30px] md:py-24 md:px-24 py-10 my-10 md:my-0">
                 <div className="md:px-0 px-5 mb-16">
                     <h1 className="!z-50 text-2xl md:text-3xl relative font-medium ">
                         <span className="z-0 w-fit h-3 absolute left-0 bottom-0 bg-yellow-200">

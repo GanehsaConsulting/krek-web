@@ -3,7 +3,7 @@ import { contacts } from "../../public/data/Db"
 export const Contact = ({ id }) => {
     return (
         <>
-            <section id={id} class="min-h-screen flex items-center justify-center mx-5 lg:mx-24 space-y-5">
+            <section id={id} class="min-h-screen flex items-center justify-center mx-5 lg:mx-24 space-y-5 md:my-0 my-10">
                 <div className="space-y-5">
                     <div className="relative">
                         <h1 className="absolute bottom-0 text-2xl md:text-4xl font-medium">
