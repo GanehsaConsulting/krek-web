@@ -5,14 +5,16 @@ export const Footer = () => {
         <>
             <footer className="min-h-0h-[50lvh] w-full bg-sky-100 rounded-t-[30px] mt-24">
                 <div className="md:px-24 md:py-16 px-5 py-10">
-                    <div className="flex md:flex-row flex-col w-full h-full gap-10">
-                        <div className="md:w-[70%]">
+                    <div className="flex md:flex-row flex-col justify-between w-full h-full gap-10">
+                        <div className="md:w-[50%]">
                             <h1 className="text-lg font-semibold">
                                 PT KREK TRANSFORMASI DIGITAL
                             </h1>
                             <a href={contacts.address.link}>
                                 <div className="">
-                                    {contacts.address.data}
+                                    Menara Cakrawala 12th Floor Unit 5A, Jalan M.H. Thamrin, <br />
+                                    Desa/Kelurahan Kebon Sirih, Kec. Menteng, Kota Adm. <br />
+                                    Jakarta Pusat, Provinsi DKI Jakarta 10340
                                 </div>
                             </a>
                             <div className="flex gap-3 mt-3">
@@ -25,7 +27,7 @@ export const Footer = () => {
                                 ))}
                             </div>
                         </div>
-                        <div className="md:max-w-[30%] bg-sky-50 h-full p-10 rounded-3xl flex md:flex-row flex-col gap-10 md:gap-20">
+                        <div className="md:max-w-[50%] bg-sky-50 h-full p-10 rounded-3xl flex md:flex-row flex-col gap-10 md:gap-20">
                             <div>
                                 <p className="footer-title">
                                     Navigasi
@@ -43,7 +45,7 @@ export const Footer = () => {
                                     Kontak
                                 </p>
                                 <div className="flex flex-col">
-                                    <a className="link link-hover cursor-pointer" href={contacts.mail.link}>
+                                    <a className="link link-hover cursor-pointer text-wrap" href={contacts.mail.link}>
                                         {contacts.mail.name}
                                     </a>
                                     <a className="link link-hover cursor-pointer" href={contacts.phone.link}>
