@@ -2,7 +2,7 @@
 import { products } from "../../public/data/Db"
 import { FaCirclePlus, FaPlus } from "react-icons/fa6";
 
-export const Products = ({id}) => {
+export const Products = ({ id }) => {
     return (
         <>
             <section id={id} className="bg-gradient-to-b from-sky-100 to-transparent rounded-t-[30px] md:py-24 md:px-24 py-10 my-10 md:my-0">
