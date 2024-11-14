@@ -235,7 +235,7 @@ export const services = [
     {
         name: "Garansi Pengembalian",
         icon: <PiShieldStarFill />,
-        desc: "Jika produk tidak sesuai atau mengalami c acat, kami menyediakan layanan pengembalian barang dengan mudah.",
+        desc: "Jika produk tidak sesuai atau mengalami cacat, kami menyediakan layanan pengembalian barang dengan mudah.",
     },
     {
         name: "Customer Support",
