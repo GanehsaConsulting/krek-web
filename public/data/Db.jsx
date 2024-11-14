@@ -113,7 +113,7 @@ export const products = [
     {
         name: 'Dress',
         desc: 'Pilihan dress modern dan elegan untuk berbagai kesempatan.',
-        img: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=3088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         child: [
             {
                 prodName: 'White Dress',
@@ -132,7 +132,7 @@ export const products = [
     {
         name: 'Blouse',
         desc: 'Blouse dengan desain trendi dan nyaman untuk sehari-hari.',
-        img: 'https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         child: [
             {
                 prodName: 'Strip Blouse',
@@ -151,7 +151,7 @@ export const products = [
     {
         name: 'Celana',
         desc: 'Celana dengan berbagai gaya, mulai dari casual hingga formal.',
-        img: 'https://images.unsplash.com/photo-1514813482567-2858e6c00ee1?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img: 'https://images.unsplash.com/photo-1618308820118-cfdbf282a07d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxvbmclMjBwYW50cyUyMGdpcmx8ZW58MHx8MHx8fDA%3D',
         child: [
             {
                 prodName: 'Jeans',
@@ -170,7 +170,7 @@ export const products = [
     {
         name: 'Rok',
         desc: 'Rok stylish yang cocok untuk segala suasana.',
-        img: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img: 'https://images.unsplash.com/photo-1646054224885-f978f5798312?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNraXJ0fGVufDB8fDB8fHww',
         child: [
             {
                 prodName: 'Pink Skirt`',
@@ -189,7 +189,7 @@ export const products = [
     {
         name: 'Jaket & Outwear',
         desc: 'Pilihan outerwear yang memberikan kenyamanan dan gaya.',
-        img: 'https://images.unsplash.com/photo-1499939667766-4afceb292d05?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img: 'https://images.unsplash.com/photo-1542088216-a7aed3b59586?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         child: [
             {
                 prodName: 'Yellow Jacket',
