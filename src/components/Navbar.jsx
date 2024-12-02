@@ -2,6 +2,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { navbarLink, urlFriendly } from "../../public/data/Db";
+import Image from "next/image";
 
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -26,7 +27,16 @@ export const Navbar = () => {
                 ${isScrolled ? "bg-white bg-opacity-50 backdrop-blur-md fixed shadow-mainShadow" : "bg-transparent sticky"}
                 `}>
                 <div className="flex-1">
-                    <a className={`btn btn-ghost text-xl ${isScrolled ? "text-black" : "text-black"}`}>Krek</a>
+                    <a className={`btn btn-ghost text-xl ${isScrolled ? "text-black" : "text-black"}`}>
+                        <Image
+                            width={50}
+                            height={50}
+                            src="/Logo.png"
+                            alt="Krek Logo" />
+                        <span className="md:block hidden">
+                            PT KREK TRANSFORMASI DIGITAL
+                        </span>
+                    </a>
                 </div>
                 <div className="flex-none hidden md:block">
                     <ul className={`menu menu-horizontal px-1 ${isScrolled ? "text-black" : "text-black"}`}>
@@ -61,14 +71,14 @@ export const Navbar = () => {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             {navbarLink.map((el, idx) => (
-                            <li key={idx}>
-                                <a
-                                    href={`#${urlFriendly(el.label)}`}
-                                >
-                                    {el.label}
-                                </a>
-                            </li>
-                        ))}
+                                <li key={idx}>
+                                    <a
+                                        href={`#${urlFriendly(el.label)}`}
+                                    >
+                                        {el.label}
+                                    </a>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 </div>
