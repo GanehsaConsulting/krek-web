@@ -279,13 +279,13 @@ export const contacts = {
         link: "https://maps.app.goo.gl/8wg4sGKQiffsFRML8"
     },
     phone: {
-        name: '1234 5678 91011',
-        link: '',
+        name: '085715898379',
+        link: 'tel:085715898379',
         logo: <FaPhone />
     },
     mail: {
         name: "krektransformasiglobal@gmail.com",
-        link: "",
+        link: "mailto:krektransformasiglobal@gmail.com",
         logo: <IoMailOutline />
     },
     socmed: [
@@ -301,7 +301,7 @@ export const contacts = {
         },
         {
             name: 'WhatsApp',
-            link: '',
+            link: 'https://api.whatsapp.com/send?phone=085715898379',
             logo: <FaWhatsapp />,
         },
     ]
